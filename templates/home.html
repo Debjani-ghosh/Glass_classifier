@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{%load static%}
+<html>
+    <link rel="stylesheet" href="{% static 'style.css' %}" type="text/css">
+    <head>
+        <title>Home page</title>
+    </head>
+    <body id="bg" style="background-image:url('{% static 'img/glass.jpeg'%}');">
+        
+        <form action="{% url 'result' %}" class="box">
+            {% csrf_token %} 
+            <div class="logo" style="background-image:url('{% static 'img/glass.jpeg'%}');"></div>
+            <p class="h2">GLASS CLASSIFIER</p>
+            
+            <p class="h2">RI </p><input type="text" placeholder="Enter RI" required name="RI">
+            <p class="h2">Na </p><input type="text" placeholder="Enter Na" required name="Na">
+            <p class="h2">Mg </p><input type="text" placeholder="Enter Mg" required name="Mg">
+            <p class="h2">AI </p><input type="text" placeholder="Enter AI" required name="AI">
+            <p class="h2">SI </p><input type="text" placeholder="Enter SI" required name="SI">
+            <p class="h2">K </p><input type="text" placeholder="Enter K" required name="K">
+            <p class="h2">Ca </p><input type="text" placeholder="Enter Ca" required name="Ca">
+            <p class="h2">Ba </p><input type="text" placeholder="Enter Ba"required name="Ba">
+            <p class="h2">Fe </p><input type="text" placeholder="Enter Fe" required name="Fe">
+            <br>
+            <input type="submit" name="submit" value="submit">
+        </form>
+    </body>
+</html>

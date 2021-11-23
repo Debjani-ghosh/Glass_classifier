@@ -1,0 +1,112 @@
+.h2
+{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+#bg
+{
+
+    background-size: cover;
+    background-blend-mode: hue;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+body
+{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box
+{
+    width: 300px;
+    padding: 50px;
+    top: 10%;
+    left: 35%;
+    background-color: #0d3f46;
+    text-align: center;
+    transform: translate(-4%,-4%);
+    position:absolute;
+    height: fit-content;
+    font-size: large;
+    border-radius: 80px;
+    
+
+}
+.box input[type="text"]
+{
+    background: none;
+    padding: 3px;
+    text-align: center;
+    display: block;
+    margin: 5px auto;
+    border-radius: 10px;
+    border: 2px solid #3498db;
+    padding: 8px 7px;
+    text-decoration: black;
+}
+.box input[type="text"]:hover
+{
+    background-color: #c2d8e5;
+    box-shadow:1px#666;
+    transform: translateY(4px);
+}
+.box input[type="submit"],.bt
+{
+    padding: 5px 10px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    background-color: #aadee7;
+    border: none;
+    border-radius: 10px ;
+    box-shadow: 2px #999;
+  }
+ 
+  
+  .box input[type="submit"]:hover,.bt:hover
+  {background-color: #06363f}
+  
+  .box input[type="submit"]:active,.bt :active
+  {
+    background-color: #1d87c5;
+    box-shadow:1px#666;
+    transform: translateY(4px);
+  }
+  .logo
+  {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin: 0 auto;
+      box-shadow: 0px 0px 2px #5f5f5f;
+
+  }
+  #div1
+  {
+      padding-top: 40px;
+      padding-bottom: 30px;
+      padding-left: 30px;
+  }
+  .res_div
+  {
+      width: 470px;
+      height: fit-content;
+      padding-top: 100px;
+      padding :38px 35px 35px;
+      background-color: #ecf0f3;
+       border-radius: 80px;
+       box-shadow: 13px 13px 20px #c9cdd1,
+      -13px -13px 20px rgb(200, 195, 195);
+       text-align: center;
+       top: 60%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       position:absolute;
+       font-family: Arial, Helvetica, sans-serif;
+  }
